@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: montserrat;
+}
+body{
+    background-color: #f1fbff;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 700px;
+    text-transform: uppercase;
+}
+.carousel-caption{
+    bottom: 200px;
+    z-index: 2;
+}
+.carousel-item{
+    height: 100hv;
+}
+.carousel-caption h5{
+    font-size: 48px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.carousel-caption p{
+    font-size: 18px;
+}
+.carousel-inner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    z-index: 1;
+}
+.section-padding{
+    padding: 100px 0px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600px;
+}
+.service .card-body i{
+    font-size: 50px;
+}
+.service .card-body h5{
+    font-size: 30px;
+}
+.service .card-body p{
+    font-size: 14px;
+}
+.projects .card{
+    box-shadow: 15px 15px 20px black;
+}
+.projects .card-body h5{
+    font-size: 30px;
+    padding: 20px 0 8px 0;
+    font-weight: 600px;
+}
+.Team .card-body p{
+    font-size: 14px;
+}
+.Team .card{
+    box-shadow: 15px 15px 20px black;
+}
+.Team .card-body h5{
+    font-size: 22px;
+    padding: 20px 0 8px 0;
+    font-weight: 600px;
+}
+.Team .card-body p{
+    font-size: 14px;
+}
+
+
+
